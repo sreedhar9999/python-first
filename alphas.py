@@ -1,5 +1,5 @@
 ssc=raw_input()
 if((ssc>='a' and ssc<=z'') or (ssc>='A' and ssc<='Z')):
-print("Alphabet")
+  print("Alphabet")
 else:
-print("No")
+  print("No")
