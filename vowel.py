@@ -1,7 +1,7 @@
 list=['a','e','i','o','u','A','E','I','O','U']
-ind=raw_input()
-if((ind>='a' and ind<='z') or (ind>='A' and ind<='Z')):
-	if(ind in list):
+ksc=raw_input()
+if((ksc>='a' and ind<='z') or (ksc>='A' and ksc<='Z')):
+	if(ksc in list):
 		print("Vowel")
 	else:
 		print("Consonant")
