@@ -1,5 +1,5 @@
 low,high=map(int,raw_input().split())
-for num in range(low, high+1):
+for num in range(low, high):
    order = len(str(num))
    sum = 0
    temp = num
