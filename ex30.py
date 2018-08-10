@@ -1,9 +1,8 @@
-
-a0,b0=map(int,input().split())
-a1,b1=map(int,input().split())
-c0=(a0*60)+b0
-d0=(a1*60)+b1
-d1=c0-d0
-c1=d1//60
-d1%=60
-print(c1,d1,sep=" ")
+x0,y0=map(int,input().split())
+x1,y1=map(int,input().split())
+z0=(x0*60)+y0
+p0=(y1*60)+y1
+p1=x0-p0
+z1=p1//60
+p1%=60
+print(z1,p1,sep=" ")
