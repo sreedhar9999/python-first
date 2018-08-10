@@ -1,4 +1,4 @@
-a=int(raw_input())
-b=a//60
-a%=60
-print(b,a,sep=" ")
+s=int(input())
+t=s//60
+s%=60
+print(t,s,sep=" ")
