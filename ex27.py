@@ -1,4 +1,4 @@
-s=input()
+s=raw_input()
 if(s.isdigit()):
     print("Yes")
 else:
