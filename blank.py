@@ -1,2 +1,2 @@
-name=str(raw_input("enter the name:"))
+name=str(raw_input())
 print(name.count(' '))
