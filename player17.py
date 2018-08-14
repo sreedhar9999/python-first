@@ -1,26 +1,26 @@
-a,b=map(int,input().split())
-c=1
+p,s=map(int,input().split())
+t=1
 if(a>b):
-	if((a%b)==0):
-		print(a)
+	if((p%s)==0):
+		print(p)
 	else:
-		while(c>=1):
-			q=a*c
-			if((int(q)%b)==0):
+		while(t>=1):
+			q=p*t
+			if((int(q)%s)==0):
 				print(q)
 				break
 			else:
 				c+=1
-elif(a<b):
-	if((b%a)==0):
-		print(b)
+elif(p<s):
+	if((s%p)==0):
+		print(s)
 	else:
-		while(c>=1):
-			q=b*c
-			if((int(q)%a)==0):
+		while(t>=1):
+			q=s*t
+			if((int(q)%p)==0):
 				print(q)
 				break
 			else:
-				c+=1
+				t+=1
 else:
-	print(a)
+	print(p)
