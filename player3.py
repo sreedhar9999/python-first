@@ -1,3 +1,3 @@
-g=input()
-rev=g[::-1]
+s=input()
+rev=s[::-1]
 print(rev)
