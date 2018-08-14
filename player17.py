@@ -5,9 +5,9 @@ if(a>b):
 		print(a)
 	else:
 		while(c>=1):
-			s=a*c
-			if((int(s)%b)==0):
-				print(s)
+			q=a*c
+			if((int(q)%b)==0):
+				print(q)
 				break
 			else:
 				c+=1
@@ -16,9 +16,9 @@ elif(a<b):
 		print(b)
 	else:
 		while(c>=1):
-			s=b*c
-			if((int(s)%a)==0):
-				print(s)
+			q=b*c
+			if((int(q)%a)==0):
+				print(q)
 				break
 			else:
 				c+=1
