@@ -1,4 +1,4 @@
- k=raw_input()
+k=raw_input()
 count=1
 for i in k:
     if (i=="."):
