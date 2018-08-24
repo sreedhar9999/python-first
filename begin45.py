@@ -1,2 +1,2 @@
-s=raw_input()
-print len(s)
+guvi=raw_input()
+print len(guvi)
