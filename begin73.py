@@ -1,6 +1,6 @@
-s=int(raw_input())
-l,r=map(int,raw_input().split())
-if s in range(l,r):
+N=int(raw_input())
+L,R=map(int,raw_input().split())
+if N in range(L,R):
 	print('yes')
 else:
 	print('no')
