@@ -1,3 +1,3 @@
-n=int(raw_input())
-k=n+273
+s=int(raw_input())
+k=s+273
 print k
